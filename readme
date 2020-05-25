@@ -1,0 +1,7 @@
+    Este programa consiste numa versão simplificade de Pacman, na qual o jogador controla um fantasma e foge do Pacman para pegar a cereja.
+
+    O tabuleiro foi representado de forma que cada vértice é uma posição. As posições iniciais do Pacman, do fantasma e da cereja são geradas aleatoriamente.
+
+    No início do programa, e a cada movimento do jogador, é realizado um algoritmo Wavefront para atualizar as distâncias de todos os vértices à posição do fantasma.
+
+    Implementação Wavefront: Foi feita com base numa busca em largura(BFS), em que é retornado da função um vetor que, cada posiçao representa um vértice e, o conteúdo de cada posição representa a distância.
